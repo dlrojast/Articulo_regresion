@@ -1,5 +1,5 @@
 library(readxl)eD
-datos <- read_excel("C:/Users/diler/Onrive/Escritorio/Unal2024/UNAL/Estadística/Semestre VII/Regresión/articulo de aplicacion/datos.xlsx")
+datos <- read_excel("datos.xlsx")
 View(datos)     
 str(datos)
 dim(datos)
