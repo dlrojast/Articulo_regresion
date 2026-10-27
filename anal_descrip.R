@@ -251,22 +251,4 @@ ggplot(
   ) +
   theme_minimal()
 
-# ============================================================
-# 9. EXPORTAR LOS RESULTADOS A CSV
-# ============================================================
-
-write.csv(
-  tabla_descriptiva,
-  "estadistica_descriptiva.csv",
-  row.names = FALSE,
-  fileEncoding = "UTF-8"
-)
-
-write.csv(
-  datos_disponibles,
-  "datos_disponibles.csv",
-  row.names = FALSE,
-  fileEncoding = "UTF-8"
-)
-
 
